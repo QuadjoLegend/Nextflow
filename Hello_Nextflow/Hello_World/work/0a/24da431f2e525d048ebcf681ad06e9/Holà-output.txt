@@ -1,0 +1,1 @@
+/home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/45/81ce7d9c6a16022c3aec30bf3af8dc/Holà-output.txt

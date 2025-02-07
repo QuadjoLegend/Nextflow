@@ -1,1 +1,19 @@
 2025-02-07 16:11:33	6.6s	nauseous_jepsen	OK	2e7b9470d64a94b4308932490797c59d	51e39e23-0e52-44eb-93ef-bdb676d4eae0	nextflow run hello-world.nf
+2025-02-07 17:18:01	12s	exotic_gauss	OK	2e7b9470d64a94b4308932490797c59d	166f76d1-dde8-4c00-a3aa-816158d31643	nextflow run hello-world.nf
+2025-02-07 17:22:35	6.3s	sick_panini	OK	2e7b9470d64a94b4308932490797c59d	7ab8129c-70c7-4641-a18b-c4cf82ac0898	nextflow run hello-world.nf
+2025-02-07 17:23:38	8.1s	peaceful_easley	OK	1cf14c34dbfd7f0f1c128f389636b14f	8f4f66c5-90f0-433a-8733-aeea2e6b578f	nextflow run hello-world.nf
+2025-02-07 17:29:13	8.6s	berserk_feynman	OK	01699805cb53c7e89ac6b51a76a32a31	caf218d7-9e8a-493a-863d-72b784ecc2cc	nextflow run hello-world.nf
+2025-02-07 17:34:38	7.6s	goofy_gautier	OK	682b0ae8933270259b67c957090fb6ef	caf218d7-9e8a-493a-863d-72b784ecc2cc	nextflow run hello-world.nf -resume
+2025-02-07 18:12:13	8.3s	insane_faggin	OK	d0c70af0ffeb306201f54c3d184d08dd	caf218d7-9e8a-493a-863d-72b784ecc2cc	nextflow run hello-world.nf -resume
+2025-02-07 18:17:15	7.8s	grave_stonebraker	OK	584a39e05ca91191ffb96c9032a70e53	aac5713d-f7b9-408d-bd99-d32cd66d4f95	nextflow run hello-world.nf --greeting 'Bonjour le monde!'
+2025-02-07 18:24:15	9s	pensive_blackwell	OK	013ef5476f1f98b30b7bba9f50c63b1e	c95010d9-16aa-438e-8e8e-8e7ad64a3d9c	nextflow run hello-world.nf
+2025-02-07 18:25:19	7.6s	elegant_easley	OK	013ef5476f1f98b30b7bba9f50c63b1e	971c62b7-4961-433e-a802-0d34dd608b9b	nextflow run hello-world.nf --greeting 'Konnichiwa!'
+2025-02-07 18:51:03	9.3s	peaceful_ritchie	OK	04a0d848c7b63d60e30cc7642d82412f	ddcfaf17-2544-4a43-9e15-5d25b37fe8e8	nextflow run hello-world.nf --greeting 'Hello World!'
+2025-02-07 18:57:33	9.4s	distracted_poitras	OK	0a73ed9d65f9c667d0b5f516bb218b18	a4991a53-c153-4471-ada5-f4c5b968feee	nextflow run hello-world.nf
+2025-02-07 19:00:03	9s	spontaneous_bhabha	OK	0a73ed9d65f9c667d0b5f516bb218b18	6ff5ab8c-1580-483c-8f80-a026432bcc01	nextflow run hello-world.nf -ansi-log false
+2025-02-07 19:16:31	9.2s	special_noether	OK	c77d9412f6c0dd34f746d2f1b99a77f7	077872b6-a14b-4af7-9914-748ebd9b5109	nextflow run hello-world.nf -ansi-log false
+2025-02-07 20:05:23	-	lethal_dijkstra	-	c112f3a8db0753cc06d1038e904ff283	fa59a5e5-9cea-442a-86ee-5a9a204e8bf1	nextflow run hello-world.nf
+2025-02-07 20:07:44	-	desperate_poitras	-	714141dae1dc0f0a3989ec244a2b8c09	9d5a2b6c-7f33-42fe-b2a4-667c339a107f	nextflow run hello-world.nf
+2025-02-07 20:10:54	-	gigantic_gauss	-	45e409fe2e4da2982d9b32cde08e116a	134f4ebf-440e-4e70-9ca8-f4f9493da899	nextflow run hello-world.nf
+2025-02-07 20:13:05	-	distracted_lalande	-	0601a970169ac9d0de074e41145b8e03	0d0c640a-6cc8-4fb2-9ec7-046d672976ec	nextflow run hello-world.nf
+2025-02-07 20:18:45	13.2s	wise_crick	OK	8d117dab8d40562478f2d43738c40681	ba572e0b-d739-42db-a3d8-66ea51bb74c2	nextflow run hello-world.nf
