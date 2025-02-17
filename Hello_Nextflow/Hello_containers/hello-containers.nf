@@ -3,7 +3,7 @@
 /*
  * Pipeline parameters
  */
-params.input_file = "containers/data/greetings.csv"
+params.input_file = "../containers/data/greetings.csv"
 // params.character can be any of 'beavis', 'cheese', 'cow', 'daemon', 'dragon', 'fox', 'ghostbusters', 'kitty',
 // 'meow', 'miki', 'milk', 'octopus', 'pig', 'stegosaurus', 'stimpy', 'trex', 'turkey', 'turtle', 'tux'
 params.character = "cow"

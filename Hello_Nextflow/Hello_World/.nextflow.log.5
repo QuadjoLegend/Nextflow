@@ -1,78 +1,177 @@
-Feb-07 19:16:29.690 [main] DEBUG nextflow.cli.Launcher - $> nextflow run hello-world.nf -ansi-log false
-Feb-07 19:16:30.287 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.4
-Feb-07 19:16:30.400 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/quadjo/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
-Feb-07 19:16:30.561 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Feb-07 19:16:30.568 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Feb-07 19:16:30.592 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
-Feb-07 19:16:30.690 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Feb-07 19:16:31.063 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
-Feb-07 19:16:31.136 [main] INFO  nextflow.cli.CmdRun - Launching `hello-world.nf` [special_noether] DSL2 - revision: c77d9412f6
-Feb-07 19:16:31.144 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Feb-07 19:16:31.146 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Feb-07 19:16:31.476 [main] DEBUG nextflow.Session - Session UUID: 077872b6-a14b-4af7-9914-748ebd9b5109
-Feb-07 19:16:31.479 [main] DEBUG nextflow.Session - Run name: special_noether
-Feb-07 19:16:31.483 [main] DEBUG nextflow.Session - Executor pool size: 4
-Feb-07 19:16:31.538 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Feb-07 19:16:31.577 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Feb-07 19:16:31.696 [main] DEBUG nextflow.cli.CmdRun - 
+Feb-07 20:07:39.819 [main] DEBUG nextflow.cli.Launcher - $> nextflow run hello-world.nf
+Feb-07 20:07:41.719 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.4
+Feb-07 20:07:42.071 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/quadjo/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Feb-07 20:07:42.434 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-07 20:07:42.444 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-07 20:07:42.462 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Feb-07 20:07:42.611 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-07 20:07:43.269 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Feb-07 20:07:43.488 [main] DEBUG nextflow.cli.CmdRun - Launching `hello-world.nf` [desperate_poitras] DSL2 - revision: 714141dae1
+Feb-07 20:07:43.503 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-07 20:07:43.507 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-07 20:07:44.270 [main] DEBUG nextflow.Session - Session UUID: 9d5a2b6c-7f33-42fe-b2a4-667c339a107f
+Feb-07 20:07:44.272 [main] DEBUG nextflow.Session - Run name: desperate_poitras
+Feb-07 20:07:44.275 [main] DEBUG nextflow.Session - Executor pool size: 4
+Feb-07 20:07:44.345 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-07 20:07:44.383 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-07 20:07:44.667 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.10.4 build 5934
   Created: 20-01-2025 16:47 UTC (16:47 GHST)
   System: Linux 6.8.0-52-generic
   Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04
   Encoding: UTF-8 (UTF-8)
-  Process: 18125@quadjo-HP-Laptop-15-bs0xx [127.0.1.1]
-  CPUs: 4 - Mem: 5.7 GB (150.5 MB) - Swap: 4 GB (1.3 GB)
-Feb-07 19:16:31.814 [main] DEBUG nextflow.Session - Work-dir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work [ext2/ext3]
-Feb-07 19:16:31.816 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/bin
-Feb-07 19:16:31.890 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Feb-07 19:16:31.944 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Feb-07 19:16:32.108 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Feb-07 19:16:32.159 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
-Feb-07 19:16:32.584 [main] DEBUG nextflow.Session - Session start
-Feb-07 19:16:36.213 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Feb-07 19:16:36.282 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/quadjo/.nextflow/secrets/store.json
-Feb-07 19:16:36.325 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@51efb731] - activable => nextflow.secret.LocalSecretsProvider@51efb731
-Feb-07 19:16:37.020 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Feb-07 19:16:37.022 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Feb-07 19:16:37.058 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Feb-07 19:16:37.094 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=5.7 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
-Feb-07 19:16:37.110 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Feb-07 19:16:37.616 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Feb-07 19:16:37.617 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Feb-07 19:16:37.640 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: sayHello, convertToUpper
-Feb-07 19:16:37.643 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
-Feb-07 19:16:37.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > sayHello
-Feb-07 19:16:37.651 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > convertToUpper
-Feb-07 19:16:37.655 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_fdfba4fb4dd194d6: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/hello-world.nf
-Feb-07 19:16:37.656 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Feb-07 19:16:37.656 [main] DEBUG nextflow.Session - Session await
-Feb-07 19:16:38.618 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:38.627 [Task submitter] INFO  nextflow.Session - [30/a12efe] Submitted process > sayHello (3)
-Feb-07 19:16:38.713 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:38.722 [Task submitter] INFO  nextflow.Session - [60/5e0eef] Submitted process > sayHello (1)
-Feb-07 19:16:38.755 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: sayHello (3); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/30/a12efef7701a12293e6a8c6618f510]
-Feb-07 19:16:38.774 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Feb-07 19:16:38.807 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:38.824 [Task submitter] INFO  nextflow.Session - [f7/a8eed8] Submitted process > sayHello (2)
-Feb-07 19:16:38.860 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: sayHello (1); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/60/5e0eef6ba8412e20841fd035ac9556]
-Feb-07 19:16:38.916 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: sayHello (2); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/f7/a8eed8a25b139570b30e12525ffe9a]
-Feb-07 19:16:39.382 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Feb-07 19:16:39.645 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:39.659 [Task submitter] INFO  nextflow.Session - [af/be04f4] Submitted process > convertToUpper (3)
-Feb-07 19:16:39.710 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:39.713 [Task submitter] INFO  nextflow.Session - [cb/ecb4e4] Submitted process > convertToUpper (1)
-Feb-07 19:16:39.792 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Feb-07 19:16:39.795 [Task submitter] INFO  nextflow.Session - [8e/fc63bc] Submitted process > convertToUpper (2)
-Feb-07 19:16:39.800 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: convertToUpper (3); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/af/be04f485c423bb8304c693c85ad560]
-Feb-07 19:16:39.880 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: convertToUpper (1); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/cb/ecb4e4bc320955de9bb3cbc60b762a]
-Feb-07 19:16:39.929 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: convertToUpper (2); status: COMPLETED; exit: 0; error: -; workDir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work/8e/fc63bc19ad3dd2f685479471467c18]
-Feb-07 19:16:39.959 [main] DEBUG nextflow.Session - Session await > all processes finished
-Feb-07 19:16:40.032 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Feb-07 19:16:40.034 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Feb-07 19:16:40.051 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
-Feb-07 19:16:40.055 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
-Feb-07 19:16:40.116 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=6; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=384ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=3; peakMemory=0; ]
-Feb-07 19:16:40.144 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Feb-07 19:16:40.225 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
-Feb-07 19:16:40.226 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 19851@quadjo-HP-Laptop-15-bs0xx [127.0.1.1]
+  CPUs: 4 - Mem: 5.7 GB (252.6 MB) - Swap: 4 GB (674.2 MB)
+Feb-07 20:07:44.918 [main] DEBUG nextflow.Session - Work-dir: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/work [ext2/ext3]
+Feb-07 20:07:44.920 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/bin
+Feb-07 20:07:45.217 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-07 20:07:45.287 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-07 20:07:45.461 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-07 20:07:45.567 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Feb-07 20:07:46.080 [main] DEBUG nextflow.Session - Session start
+Feb-07 20:07:51.666 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-07 20:07:51.732 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/quadjo/.nextflow/secrets/store.json
+Feb-07 20:07:51.783 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@79980d8d] - activable => nextflow.secret.LocalSecretsProvider@79980d8d
+Feb-07 20:07:51.998 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `input_file` -- Initialise it to a default value eg. `params.input_file = some_value`
+Feb-07 20:07:52.056 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_782f3288a3633b1e: /home/quadjo/Nextflow/Hello_Nextflow/Hello_World/hello-world.nf
+Feb-07 20:07:52.058 [main] DEBUG nextflow.Session - Session aborted -- Cause: Missing `fromPath` parameter
+Feb-07 20:07:52.103 [main] DEBUG nextflow.Session - 
+Thread[#24,process reaper,10,InnocuousThreadGroup]
+  java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+  java.base@21.0.5/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+  java.base@21.0.5/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+  java.base@21.0.5/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+  java.base@21.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+  java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+  java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+  java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+  java.base@21.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+Thread[#26,AnsiLogObserver,5,main]
+  java.base@21.0.5/java.lang.Object.wait0(Native Method)
+  java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+  app//nextflow.trace.AnsiLogObserver.render0(AnsiLogObserver.groovy:185)
+  java.base@21.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeVirtual(DirectMethodHandle$Holder)
+  java.base@21.0.5/java.lang.invoke.LambdaForm$MH/0x00007317c8289400.invoke(LambdaForm$MH)
+  java.base@21.0.5/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+  java.base@21.0.5/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:154)
+  java.base@21.0.5/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  java.base@21.0.5/java.lang.reflect.Method.invoke(Method.java:580)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+  java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+Thread[#11,Signal Dispatcher,9,system]
+
+Thread[#25,Thread-1,5,main]
+  java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+  java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+  java.base@21.0.5/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:515)
+  java.base@21.0.5/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:677)
+  app//nextflow.util.SimpleAgent.run(SimpleAgent.groovy:89)
+  java.base@21.0.5/java.lang.invoke.LambdaForm$DMH/0x00007317c81a8000.invokeVirtual(LambdaForm$DMH)
+  java.base@21.0.5/java.lang.invoke.LambdaForm$MH/0x00007317c8254000.invoke(LambdaForm$MH)
+  java.base@21.0.5/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+  java.base@21.0.5/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:153)
+  java.base@21.0.5/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  java.base@21.0.5/java.lang.reflect.Method.invoke(Method.java:580)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+  java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+
+Thread[#10,Finalizer,8,system]
+  java.base@21.0.5/java.lang.Object.wait0(Native Method)
+  java.base@21.0.5/java.lang.Object.wait(Object.java:366)
+  java.base@21.0.5/java.lang.Object.wait(Object.java:339)
+  java.base@21.0.5/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+  java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+  java.base@21.0.5/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+  java.base@21.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+Thread[#1,main,5,main]
+  java.base@21.0.5/java.lang.Thread.dumpThreads(Native Method)
+  java.base@21.0.5/java.lang.Thread.getAllStackTraces(Thread.java:2522)
+  app//nextflow.util.SysHelper.dumpThreads(SysHelper.groovy:188)
+  app//nextflow.Session.abort(Session.groovy:800)
+  app//nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:149)
+  app//nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+  app//nextflow.cli.Launcher.run(Launcher.groovy:503)
+  app//nextflow.cli.Launcher.main(Launcher.groovy:658)
+
+Thread[#17,Common-Cleaner,8,InnocuousThreadGroup]
+  java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+  java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+  java.base@21.0.5/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+  java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+  java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+  java.base@21.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+  java.base@21.0.5/java.lang.Thread.runWith(Thread.java:1596)
+  java.base@21.0.5/java.lang.Thread.run(Thread.java:1583)
+  java.base@21.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+Thread[#9,Reference Handler,10,system]
+  java.base@21.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+  java.base@21.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+  java.base@21.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+Thread[#18,Notification Thread,9,system]
+
+Feb-07 20:07:52.140 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Missing `fromPath` parameter
+	at nextflow.Channel.fromPath(Channel.groovy:292)
+	at nextflow.Channel.fromPath(Channel.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1586)
+	at groovy.lang.DelegatingMetaClass.invokeStaticMethod(DelegatingMetaClass.java:173)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_782f3288a3633b1e$_runScript_closure3$_closure8.doCall(Script_782f3288a3633b1e:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at nextflow.script.WorkflowDef.run0(WorkflowDef.groovy:204)
+	at nextflow.script.WorkflowDef.run(WorkflowDef.groovy:188)
+	at nextflow.script.BindableDef.invoke_a(BindableDef.groovy:51)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:198)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:209)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:243)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:138)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)
