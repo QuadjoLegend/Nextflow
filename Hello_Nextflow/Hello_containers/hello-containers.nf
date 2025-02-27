@@ -3,7 +3,7 @@
 /*
  * Pipeline parameters
  */
-params.input_file = "../containers/data/greetings.csv"
+params.input_file = "../containers/data/pioneers.csv"
 // params.character can be any of 'beavis', 'cheese', 'cow', 'daemon', 'dragon', 'fox', 'ghostbusters', 'kitty',
 // 'meow', 'miki', 'milk', 'octopus', 'pig', 'stegosaurus', 'stimpy', 'trex', 'turkey', 'turtle', 'tux'
 params.character = "cow"
@@ -49,6 +49,18 @@ process cowSay {
     """
 }
 
+process getQuote {
+    publishDir 'containers/results', mode: 'copy'
+    container 'community.wave.seqera.io/library/pip_cowsay:131d6a1b707a8e65'
+
+    output:
+        stdout result
+
+    script:
+    """
+    docker run --rm quote:latest quote 
+    """
+}
 workflow {
 
     // create a channel for inputs from a CSV file
@@ -60,4 +72,5 @@ workflow {
 
     // cowSay the text
     cowSay(sayHello.out)
+    getQuote(cowSay.out)
 }
