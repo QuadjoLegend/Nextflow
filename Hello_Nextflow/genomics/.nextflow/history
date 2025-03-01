@@ -1,0 +1,4 @@
+2025-02-27 12:36:55	8.9s	pedantic_tuckerman	ERR	7ad6dad11bf816388b9a152d2cf55b7a	e98cab7d-aa8b-4e2f-9027-9c0419c3174a	nextflow run hello-genomics.nf
+2025-02-27 12:39:04	8.8s	furious_picasso	OK	7ad6dad11bf816388b9a152d2cf55b7a	68019045-0b1b-4e35-8051-25a6494f815a	nextflow run hello-genomics.nf
+2025-02-28 20:33:37	9.6s	lethal_lorenz	ERR	2e1fb056975b447499f75ec911a9150f	68019045-0b1b-4e35-8051-25a6494f815a	nextflow run hello-genomics.nf -resume
+2025-03-01 14:57:05	10.5s	infallible_bassi	ERR	2e1fb056975b447499f75ec911a9150f	68019045-0b1b-4e35-8051-25a6494f815a	nextflow run hello-genomics.nf -resume
